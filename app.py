@@ -403,8 +403,8 @@ elif page == "🤖 Model AI (CNN)":
     with tab1:
         st.markdown(
             "<div class='info-box'>Model CNN 1D memprediksi <b>Kondisi Tanah</b> (Dry / Optimal / Wet) "
-            "dari fitur <b>Kelembapan Tanah</b> dan <b>Suhu</b>, mengikuti arsitektur dari sistem "
-            "Bayam Brazil sebelumnya.</div>", unsafe_allow_html=True)
+            "dari fitur <b>Kelembapan Tanah</b> dan <b>Suhu</b>, "
+            ".</div>", unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
 
         if st.button("🚀 Latih / Muat Model Kondisi Tanah", key="train_soil"):
@@ -465,7 +465,7 @@ elif page == "🤖 Model AI (CNN)":
         st.markdown(
             "<div class='info-box'>Model CNN 1D memprediksi <b>Tahap Pertumbuhan / Kesiapan Panen</b> "
             "dari fitur <b>DAP (Hari Setelah Tanam)</b> dan <b>Tingkat Kematangan</b>. Bagian ini menggantikan "
-            "modul klasifikasi citra daun pada sistem Bayam Brazil, karena dataset Pakcoy berbasis sensor/HST.</div>",
+            "modul klasifikasi citra daun pada sistem dataset Pakcoy berbasis sensor/HST.</div>",
             unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
 
